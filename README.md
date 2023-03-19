@@ -4,4 +4,4 @@ tcc
 /
 wine
 /
-this can be compiled and should work both for linux like OS-s and also for Windows.
+this can be compiled and should work both for linux like OS-s and also for Windows. tcc is included into project.

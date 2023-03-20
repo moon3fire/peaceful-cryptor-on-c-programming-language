@@ -75,7 +75,7 @@ int main(void) {
     fread(buff, sizeof(char), BUFSIZ, payload);
     fclose(payload);
 
-    char key[] = "lox";
+    char key[] = "peaceful key";
     int lenkey = strlen(key);
 
     encrypt_xor(exec, buff, BUFSIZ, key, lenkey);

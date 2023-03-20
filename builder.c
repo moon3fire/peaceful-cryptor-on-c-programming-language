@@ -16,7 +16,7 @@ int main()
     nbytes = (unsigned long)_end - (unsigned long)_payload;
     char buff[nbytes];
 
-    char key[] = "lox";
+    char key[] = "peaceful key";
     int lenkey = strlen(key);
 
     encrypt_xor(buff, (char*)_payload, nbytes, key, lenkey);
